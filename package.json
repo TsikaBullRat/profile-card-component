@@ -1,0 +1,13 @@
+{
+    "name": "profile-card-component",
+    "version": "1.0.0",
+    "author": {
+        "name": "Ntsikayomzi Phenyo Ngcakani",
+        "email": "tsika1996190514@gmail.com",
+        "url": "https://www.bitbullscriptrat.co.za/"
+    },
+    "description": "More practice from frontend mentor",
+    "license": "UNLICENSED",
+    "homepage": "",
+    "main": "engine.js"
+}
