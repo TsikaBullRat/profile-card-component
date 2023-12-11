@@ -1,45 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="res/styles.css">
-  
-  <title>Profile card component</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="res/styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Profile card component</title>
 
-  <main>
-    <img src="images/bg-pattern-top.svg" alt="bg-top">
-    Victor Crest
-    26
-    London
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img src="images/bg-pattern-top.svg" class="left-image" alt="bg-top" />
+      <section>
+        <div class="profile-pic">
+          <img src="images/image-victor.jpg" alt="profile-pic" />
+        </div>
+        <div class="txt-hold">
+          <div class="heading">
+            <h5>Victor Crest</h5>
+            <h5 class="txt1">26</h5>
+          </div>
+          <p class="txt1">London</p>
+          <hr>
+          <div class="stats">
+            <div>
+              <h6>Followers</h6>
+              <p>80K</p>
+            </div>
+            <div>
+              <h6>Likes</h6>
+              <p>803K</p>
+            </div>
+            <div>
+              <h6>Photos</h6>
+              <p>1.4K</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <img
+        src="images/bg-pattern-bottom.svg"
+        class="right-image"
+        alt="bg-bottom"
+      />
+    </main>
 
-    80K
-    Followers
-
-    803K
-    Likes
-
-    1.4K
-    Photos
-    <img src="images/bg-pattern-bottom.svg" alt="bg-bottom">
-  </main>
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.bitbullscriptrat.co.za/">Ntsikayomzi Phenyo Ngcakani</a>.
-  </footer>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.bitbullscriptrat.co.za/"
+        >Ntsikayomzi Phenyo Ngcakani</a
+      >.
+    </footer>
+  </body>
 </html>

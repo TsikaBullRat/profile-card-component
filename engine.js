@@ -15,13 +15,13 @@ createServer(( req, res )=>{
             content = 'text/javascript'
             break
         case '.jpg':
-            content = 'image/jpg'
+            content = 'image/jpeg'
             break
         case '.png':
             content = 'image/png'
             break
         case '.svg':
-            content = 'image/svg'
+            content = 'image/svg+xml'
             break
         default:
             content = 'text/html'
