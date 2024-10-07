@@ -10,7 +10,7 @@
     "license": "UNLICENSED",
     "homepage": "https://tsikabullrat.github.io/profile-card-component/",
     "main": "engine.js",
-    "scrpts": {
+    "scripts": {
         "start": "node engine.js"
     }
 }
