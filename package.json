@@ -9,5 +9,8 @@
     "description": "More practice from frontend mentor",
     "license": "UNLICENSED",
     "homepage": "https://tsikabullrat.github.io/profile-card-component/",
-    "main": "engine.js"
+    "main": "engine.js",
+    "scrpts": {
+        "start": "node engine.js"
+    }
 }
