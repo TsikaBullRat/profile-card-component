@@ -30,4 +30,4 @@ createServer(( req, res )=>{
 
     res.writeHead(200, {"Content-Type": content})
     createReadStream(path).pipe(res)
-}).listen(4444)
+}).listen(80)
